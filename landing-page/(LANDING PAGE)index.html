@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Entering the DivLoop...</h1>
+    <p>Your one-stop solution for all things awesome</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO Section -->
+  <section id="home" class="hero">
+    <h2>Your Journey Begins Here</h2>
+    <p>Discover the tools and solutions tailored for your needs</p>
+    <a href="#get-started-form"><button>Get Started</button></a>
+  </section>
+
+  <!-- FEATURES Section -->
+  <section id="features" class="features">
+    <div class="feature-box">
+      <h3>Fast</h3>
+      <p>Lightning speed performance</p>
+    </div>
+    <div class="feature-box">
+      <h3>Secure</h3>
+      <p>Built with safety in mind</p>
+    </div>
+    <div class="feature-box">
+      <h3>Responsive</h3>
+      <p>Looks great on all devices</p>
+    </div>
+  </section>
+
+  <!-- ABOUT Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We are passionate creators who love making clean and functional designs that work beautifully across all devices.</p>
+  </section>
+
+  <!-- CONTACT Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: divyankakirola03@gmail.com<br>Phone: +91-9540515602</p>
+  </section>
+
+  <!-- FORM Section -->
+  <section id="get-started-form">
+    <h2>Get Started</h2>
+    <p>Enter your details and we'll get in touch with you!</p>
+
+    <form action="https://formsubmit.co/divyankakirola03@gmail.com" method="POST">
+      <!-- Hidden Inputs -->
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="thankyou.html">
+
+      <!-- Visible Fields -->
+      <input type="text" name="name" placeholder="Your Name" required><br>
+      <input type="email" name="email" placeholder="Your Email" required><br>
+      <textarea name="message" placeholder="Your Message" rows="4" required></textarea><br>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Divyanka Kirola. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
